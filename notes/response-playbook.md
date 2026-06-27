@@ -22,6 +22,8 @@ Recommended actions:
 
 
 
+
+
 \## Suspicious PowerShell
 
 
@@ -39,6 +41,8 @@ Recommended actions:
 \- Identify parent process
 
 \- Isolate host if malicious activity is confirmed
+
+
 
 
 
@@ -62,6 +66,8 @@ Recommended actions:
 
 
 
+
+
 \## File Integrity Change
 
 
@@ -82,6 +88,8 @@ Recommended actions:
 
 
 
+
+
 \## Known Malicious IP
 
 
@@ -97,6 +105,8 @@ Recommended actions:
 \- Identify contacted hosts
 
 \- Review for command-and-control behavior
+
+
 
 
 
