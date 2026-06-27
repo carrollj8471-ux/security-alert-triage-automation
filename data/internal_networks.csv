@@ -1,0 +1,5 @@
+network,description
+10.0.0.0/8,Private RFC1918 network
+172.16.0.0/12,Private RFC1918 network
+192.168.0.0/16,Private RFC1918 network
+172.30.0.0/16,Home lab network

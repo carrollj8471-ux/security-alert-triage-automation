@@ -1,0 +1,11 @@
+alert_id,timestamp,alert_type,source_ip,destination_host,user,event_source,description,asset_criticality,host_exposure
+A001,2026-06-26 09:15:00,Failed SSH Login,203.0.113.50,linux-endpoint,admin,/var/log/auth.log,Multiple failed SSH login attempts detected,High,Internal
+A002,2026-06-26 09:18:00,Suspicious PowerShell,172.30.80.1,windows-endpoint,jdoe,Sysmon,Encoded PowerShell command executed,Critical,Internal
+A003,2026-06-26 09:21:00,New Windows Service,172.30.80.1,windows-endpoint,SYSTEM,Windows Security Event Log,New Windows service created unexpectedly,Critical,Internal
+A004,2026-06-26 09:30:00,File Integrity Change,172.30.92.148,linux-endpoint,root,Wazuh FIM,Sensitive configuration file modified,High,Internal
+A005,2026-06-26 09:45:00,Known Malicious IP,198.51.100.25,web-server-01,unknown,Firewall,Connection attempt from known suspicious external IP,Critical,Internet-Facing
+A006,2026-06-26 10:05:00,High Risk CVE,10.0.5.25,db-server-01,scanner,Vulnerability Scanner,Critical CVE detected on database server,Critical,Internal
+A007,2026-06-26 10:12:00,Impossible Travel Login,192.0.2.77,cloud-admin-portal,asmith,Cloud Identity Logs,Login from unusual geographic location,High,Internet-Facing
+A008,2026-06-26 10:25:00,Privilege Escalation,172.30.80.1,windows-endpoint,jdoe,Windows Security Event Log,User added to local administrators group,Critical,Internal
+A009,2026-06-26 10:40:00,Malware Alert,172.30.80.1,windows-endpoint,jdoe,Endpoint Detection,Malware-like behavior detected by endpoint protection,Critical,Internal
+A010,2026-06-26 11:00:00,Nmap Scan Detected,172.30.84.93,linux-endpoint,secadmin,Wazuh,Port scanning activity detected against endpoint,Medium,Internal

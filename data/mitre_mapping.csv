@@ -1,0 +1,11 @@
+alert_type,tactic,technique_id,technique_name,base_severity,response_action
+Failed SSH Login,Credential Access,T1110,Brute Force,Medium,Review authentication logs and block repeated offending IPs
+Suspicious PowerShell,Execution,T1059.001,PowerShell,High,Collect PowerShell logs and investigate command line activity
+New Windows Service,Persistence,T1543.003,Windows Service,High,Validate service legitimacy and investigate host persistence
+File Integrity Change,Defense Evasion,T1565.001,Stored Data Manipulation,Medium,Review file change details and validate authorized change window
+Known Malicious IP,Command and Control,T1071,Application Layer Protocol,Critical,Block source IP and review related network connections
+High Risk CVE,Initial Access,T1190,Exploit Public-Facing Application,High,Prioritize remediation or compensating controls
+Impossible Travel Login,Initial Access,T1078,Valid Accounts,High,Review identity logs and force password reset if suspicious
+Privilege Escalation,Privilege Escalation,T1068,Exploitation for Privilege Escalation,Critical,Investigate account changes and isolate affected host if unauthorized
+Malware Alert,Execution,T1204,User Execution,Critical,Isolate endpoint and begin malware triage process
+Nmap Scan Detected,Discovery,T1046,Network Service Discovery,Medium,Validate source and review scanning activity
